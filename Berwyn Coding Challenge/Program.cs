@@ -86,7 +86,6 @@ namespace Berwyn_Coding_Challenge
                     isDup.Add("N");
                     //outfile.Write("N, ");
                 }
-                Sum.Add(sum);
                 Val3.Add(words[3]);
                 totalVal3length = totalVal3length + words[3].ToCharArray().Length - 1;
                // Console.WriteLine(words[0] + ", " + sum );
