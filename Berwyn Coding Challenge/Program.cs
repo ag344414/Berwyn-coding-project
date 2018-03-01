@@ -19,9 +19,9 @@ namespace Berwyn_Coding_Challenge
             string currentLine;
             fileName = Console.ReadLine();
             //Opening the file
-            /*if(File.Exists(output)){
+            if(File.Exists(output)){
                 File.Delete(output);
-            }
+            }/*
             File.Create(output);*/
             var fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             var file = new System.IO.StreamReader(fileStream, System.Text.Encoding.UTF8, true, 128);
